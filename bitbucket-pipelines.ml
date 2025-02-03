@@ -21,7 +21,7 @@ pipelines:
 
           - mv __pycache__/bot.cpython-310.pyc bot.pyc
           - rm -rf bot.py __pycache__
-          - gcc king.c -o bgmi -lpthread
+          - gcc fuck.c -o bgmi -lpthread
 
           - chmod 755 bot.pyc
           - chmod 755 bgmi
